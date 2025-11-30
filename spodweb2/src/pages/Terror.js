@@ -7,6 +7,19 @@ function Terror() {
   const [jogos, setJogos] = useState([]);
 
   useEffect(() => {
+    // Carrega do localStorage primeiro, com fallback para JSON
+    const stored = localStorage.getItem("jogos");
+    if (stored) {
+      try {
+        const todosJogos = JSON.parse(stored);
+        setJogos(todosJogos.filter((j) => j.genero === "Terror"));
+        return;
+      } catch (e) {
+        // Em caso de erro, busca do JSON
+      }
+    }
+
+    // Fallback: busca do JSON original
     axios.get("/api/jogos.json").then((res) => {
       setJogos(res.data.filter((j) => j.genero === "Terror"));
     });

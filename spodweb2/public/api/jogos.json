@@ -15,7 +15,7 @@
     "genero": "Ação",
     "preco": 199.90,
     "descricao": "Kratos enfrenta novos deuses e monstros em uma aventura épica.",
-    "capa": "/imgs/gow.jpg"
+    "capa": "./imgs/gow.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "genero": "Corrida",
     "preco": 299.90,
     "descricao": "Dirija pelos cenários mais belos do México neste simulador de corrida.",
-    "capa": "/imgs/forza5.jpg"
+    "capa": "./imgs/forza5.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "genero": "RPG",
     "preco": 49.90,
     "descricao": "A nova sequel de Hollow Knight te leva para as profundezas novamente.",
-    "capa": "/imgs/silksong.webp"
+    "capa": "./imgs/silksong.webp"
   },
   {
     "id": 5,
@@ -42,6 +42,15 @@
     "genero": "Terror",
     "preco": 79.95,
     "descricao": "Um jogo de terror psicológico com uma narrativa envolvente.",
-    "capa": "/imgs/aila.jpg"
+    "capa": "./imgs/aila.jpg"
+  },
+  {
+    "id": 6,
+    "slug": "silent-hill-f",
+    "nome": "Silent Hill f",
+    "genero": "Terror",
+    "preco": 299.90,
+    "descricao": "A mais nova entrada na icônica franquia Silent Hill, ambientada no Japão dos anos 1960.",
+    "capa": "./imgs/silenthillf.jpg"
   }
 ]
